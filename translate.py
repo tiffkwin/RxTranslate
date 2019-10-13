@@ -5,9 +5,9 @@ from google.cloud import translate
 translate_client = translate.Client()
 
 def trans( input2, language):
-    print(u'Text: {}'.format(input2))
+    print(u'Text: \n{}\n'.format(input2))
     translation2 = translate_client.translate(input2,target_language=language)
-    print(u'Translation: {}'.format(translation2['translatedText']))
+    print(u'Translation: \n{}\n'.format(translation2['translatedText']))
 
 # trans('hello,world', 'es')
 

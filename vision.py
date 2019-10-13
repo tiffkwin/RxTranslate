@@ -11,8 +11,13 @@ def detect_text(path):
 
     response = client.text_detection(image=image)
     texts = response.text_annotations
+    return texts[0].description.replace('\n', ' ')
+#     for x in texts[0].description.replace('\n', ' ').split(' '):
+#         print(x)
+#         print('asdjfasd')
     
-    return '\n{}'.format(texts[0].description)
+# detect_text("/Users/tiff/GitHub/RxTranslate/resources/snapshot.jpg")
+    # return '\n{}'.format(texts[0].description)
     # print('\n"{}"'.format(texts[0].description))
 
     # print('Texts:')

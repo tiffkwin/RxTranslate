@@ -18,9 +18,7 @@ def scrape(drug):
         try:
             if tag["data-metrics-link"] == "result_1":
                 interactions_url =  base_url + tag["href"] + "/list-interaction-medication"
-                # print(base_url + interactions_url)
-                break
+                return interactions_url
         except KeyError:
             pass # or some other fallback action
-
-    print(interactions_url)
+    return False
