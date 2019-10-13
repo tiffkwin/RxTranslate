@@ -1,7 +1,9 @@
 # RxTranslate
 
 ## The Problem
-"A basic principle of effective communication is to know the audience. This principle is especially important for patient-provider interactions that involve risk and diagnostic information, preventive measures, and instructions on medication regimens. But a message said is not necessarily a message understood." - Dr. Sherine El-Toukhy
+> A basic principle of effective communication is to know the audience. This principle is especially important for patient-provider
+> interactions that involve risk and diagnostic information, preventive measures, and instructions on medication regimens. But a message said
+> is not necessarily a message understood." - Dr. Sherine El-Toukhy
 
 Our teammate Maria knows what it is like to live in America with parents who struggle with the language barrier which can oftentimes be a large obstacle in the path to effective healthcare.
 
